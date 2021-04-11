@@ -10,3 +10,36 @@ body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
+
+header#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  background: #fff;
+
+}
+
+header#main-header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header#main-header nav ul li {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #667580;
+  font-weight: bold;
+
+  margin-left: 30px;
+}
+
+header#main-header nav ul li:first-child {
+  /* parei em 12:56 */
+  margin: 0;
+}
+
+header#main-header nav ul li img  {
+  margin-right: 7px;
+}
