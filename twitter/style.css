@@ -190,3 +190,60 @@ div.bar .content .actions button {
   margin-right: 20px;
 }
 
+div.wrapper-content  {
+  display: flex;
+}
+
+div.wrapper-content  aside.profile {
+  width: 260px;
+}
+
+div.wrapper-content  aside.profile img.avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+
+div.wrapper-content  aside.profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+div.wrapper-content  aside.profile span {
+  font-size: 14px;
+  color: #53626c;
+}
+
+div.wrapper-content  aside.profile p {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+div.wrapper-content  aside.profile ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+div.wrapper-content  aside.profile li {
+  font-size: 14px;
+  color: #657786;
+
+  display: flex;
+  align-items: center;
+
+  margin-top: 5px;
+}
+
+div.wrapper-content  aside.profile li:first-child {
+  margin: 0;
+}
+
+div.wrapper-content  aside.profile li img{
+  margin-right: 10px;
+}
+
+/* //10:59 */
